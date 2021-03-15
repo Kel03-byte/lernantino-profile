@@ -1,0 +1,394 @@
+* {
+    font-family: Arial, sans-serif;
+    color:rgb(68, 88, 118);
+    background-color: rgb(237, 237, 246);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+/*--Main Header Section--*/
+header {
+    color: rgb(146, 204, 205);
+    background-color: rgb(49, 52, 61);
+}
+
+header h1 {  
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    height: fit-content;
+    font-size: 50px;
+    text-align: center;
+}
+
+header nav {   
+    padding-top: 15px;
+    color: rgb(146, 204, 205);
+    background-color: rgb(49, 52, 61);
+    height: fit-content;
+}
+
+header nav ul {
+    list-style-type: none;
+    color: rgb(146, 204, 205);
+    background-color: rgb(49, 52, 61);
+}
+
+header nav ul li a {
+    background-color: rgb(49, 52, 61);
+    color: rgb(146, 204, 205);
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+    color: rgb(146, 204, 205);
+    background-color: rgb(49, 52, 61);
+    text-decoration: underline 3px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/*--Subtitle Section--*/
+.subtitle {
+    font-size: 40px;
+    height: 100px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+
+.subtitle a{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+/*--Main Body Section--*/
+.grid {
+    display: inline-block;
+    }
+
+/*-- Subsection Title Section--*/
+#header1 {
+    font-size: 30px;
+    border-bottom: solid 5px rgb(68, 88, 118);
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+#header2 {
+    font-size: 30px;
+    border-bottom: solid 5px rgb(68, 88, 118);
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+#header3 {
+    font-size: 30px;
+    border-bottom: solid 5px rgb(68, 88, 118);
+    width: 95%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+/*--Main Content Section--*/
+#about-me {
+    line-height: 2;
+    font-size: 14px;
+    width: 380px;
+    margin: 20px;
+}
+
+/*--Application Subsection--*/
+#app1 {
+    background-image: url(./app1.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px rgb(146, 204, 205);
+}
+
+#app2 {
+    background-image: url(./app2.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px rgb(146, 204, 205);
+}
+
+#app3 {
+    background-image: url(./app3.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px rgb(146, 204, 205);
+}
+
+#app4 {
+    background-image: url(./app4.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px rgb(146, 204, 205);
+}
+
+#app5 {
+    background-image: url(./app5.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px rgb(146, 204, 205);
+}
+
+#app-title {    
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#app-card {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    width: fit-content;
+    top: 90px;
+}
+
+#app-card1 {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    width: fit-content;
+    top: 90px;
+}
+
+/*--Contact Info Section--*/
+#contact a {
+    display: block;
+    line-height: 2;
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    width: 380px;
+}
+
+/*--Hover Effect Section--*/
+.hover:hover {
+  box-shadow: inset 40px 40px 40px rgb(101, 101, 233);
+}
+
+/*--Footer Section--*/
+footer {
+    display: block;
+    width: fit-content;
+    margin: 10px;
+    font-size: smaller;
+}
+
+/*--Resizing for Tablets Section--*/
+@media screen and (min-width: 768px){
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+header h1 {
+    width: fit-content;
+    font-size: 50px;
+    padding-left: 100px;
+    position: relative;
+    top: 22px;
+}
+
+header nav {   
+    position: relative;
+    top: 30px;
+    width: fit-content;
+}
+
+#about-me {
+    width: 730px;
+}
+
+#app1 {
+    width: 700px;
+    height: 400px;
+}
+
+#app2 {
+    width: 320px;
+}
+
+#app3 {
+    width: 320px;
+}
+
+#app4 {
+    width: 320px;
+}
+
+#app5 {
+    width: 320px;
+}
+
+#contact {
+display: flex;
+justify-content: space-between;
+align-self: center;
+}
+}
+
+/*--Resizing for Computer Screens Section--*/
+@media screen and (min-width: 992px){
+
+.subtitle a {
+    float: right;
+    margin-top: 45px;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+header nav ul li a{
+    font-size: 30px;
+}
+
+#header1 {
+    grid-area: header1;
+    font-size: 60px;
+    justify-self: right;
+    border-right: solid 3px rgb(68, 88, 118);
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+#header2 {
+    grid-area: header2;
+    font-size: 60px;
+    justify-self: right;
+    border-right: solid 3px rgb(68, 88, 118);
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+#header3 {
+  grid-area: header3;
+  font-size: 60px;
+  justify-self: right;
+  border-right: solid 3px rgb(68, 88, 118);
+  text-align: right;
+  padding-right: 20px;
+  border-bottom: none;
+}
+
+#about-me {
+    grid-area: about-me;
+    justify-self: self-start;
+    padding-left: 20px;
+    line-height: 2;
+    width: 850px;
+}
+
+#app1 {
+    grid-area: app1;
+    position: relative;
+    width: 900px;
+    height:600px;
+}
+
+#app2 {
+    grid-area: app2;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app3 {
+    grid-area: app3;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app4 {
+    grid-area: app4;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app5 {
+    grid-area: app5;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#contact { 
+    grid-area: contact;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 850px;
+    height:60px;
+}
+
+#contact a{
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+    "header1 about-me about-me"
+    "header1 about-me about-me"
+    "header2 app1 app1"
+    "header2 app2 app3"
+    "header2 app4 app5"
+    "header3 contact contact"
+}
+}
